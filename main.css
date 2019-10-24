@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.alert-container{}
+
+.callout-container{
+    height: 100vh;
+
+    background: url(whiskey-glass.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+      align-items:center;
+      justify-content:center;
+}
+
+.quotes-container{}
+
+.features-container{}
+
+.monthly-favourites-container{}
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+    padding-bottom: 15rem;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style:italic;
+    color: #d0d0d0;
+}
