@@ -1,8 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.alert-container{}
+.alert-container.col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    border-colour:#eec802;
+    background-color:#eec802;
+}
 .callout-container{
     height: 100vh;
 
@@ -48,6 +58,39 @@ body{
 
 .monthly-favourites-container{}
 
+/*Navbar*/
+
+.navalert-conatiner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    padding-top: 0;
+    padding-right:0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgba(0,0,0,0.50);
+    z-index: 1;
+}
+
+.navbar.navbar-toggler{
+    border: 0;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar.navbar-nav a{
+    font-weight:bold;
+}
 /*Jumbotron*/
 
 .jumbotron{
@@ -85,7 +128,7 @@ body{
 .btn--red:focus,
 .btn--red:active:focus{
     background-color: #4e4e4e;
-::#e9ecef;
+    border-color:#e9ecef;
 }
 
 .btn--red:hover,
