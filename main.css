@@ -65,6 +65,11 @@ body{
 .page-header .h2{
     margin-top: 0;
 }
+
+.quotes .page-header{
+    margin-bottom:25px;
+}
+
 /*Block divider*/
 
 .block-divider{
@@ -74,8 +79,13 @@ body{
     background-color: #444;
 }
 
-.block-divider-grey{
+.block-divider--grey{
     background-color:#444;
+}
+
+.block-divider--white{
+    background-color:rgb(248, 244, 244);
+    margin-bottom:30px;
 }
 
 .block-divider-short{}
@@ -122,6 +132,11 @@ body{
 .navbar.navbar-nav a{
     font-weight:bold;
 }
+
+.navbar-brand{
+    padding-left:15px;
+}
+
 /*Jumbotron*/
 
 .jumbotron{
@@ -169,4 +184,25 @@ body{
 .btn--grey:active:focus{
     background-color: #4e4e4e;
     border-color:white;
+}
+
+.feature{
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height:45px;
+}
+
+.feature .btn{
+    background-color: #4e4e4e;
+    border-color:#e9ecef;
+    border-radius:15px;
+    min-width:100px;
+    font-weight:bold;
+    margin-top: 10px;
+    color:white;
 }
